@@ -4,7 +4,7 @@ exports.up = function(knex) {
     table.increments();
     table.string('atividade').notNullable();
     table.string('description').notNullable();
-    table.string('tempo').notNullable();
+    table.string('tempo');
   });
 };
 

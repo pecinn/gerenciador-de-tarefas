@@ -8,7 +8,7 @@ module.exports = {
     .select('*');
     return response.json(tarefas);
   },
-  
+
   //Criar Tarefa
   async create(request, response) {
 
